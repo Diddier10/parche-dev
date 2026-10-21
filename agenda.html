@@ -23,10 +23,57 @@
 
     <main id="contenido">
         <h1>Agenda</h1>
-        <p>El contenido propio de esta página va aquí.</p>
-    </main>
-    <footer>
-        <address>
+        <p>Dos salas, un taller y muchas conversaciones. Arma tu ruta del día.</p>
+        <table border="1">
+            <caption>Agenda del Parche Dev 2026</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Hora</th>
+                    <th scope="col">Sala Montaña</th>
+                    <th scope="col">Sala Rio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8:00 - 9:00</td>
+                    <td colspan="2">Registro y cafe de bienvenida</td>
+                </tr>
+                <tr>
+                    <td scope="row">9:00 - 9:30</td>
+                    <td colspan="2" id="bienvenida">Bienvenida: por qué existe Parche Dev </td>
+                </tr>
+                <tr>
+                    <td scope="row">9:45 - 10:30</td>
+                    <td id="charla-html">HTML que se entiende sin CSS  </td>
+                    <td id="charla-sql">SQL para curiosos</td>
+                </tr>
+                <tr>
+                    <td scope="row">10:45 - 11:30</td>
+                    <td id="charla-accesibilidad">La web es para todos </td>
+                    <td rowspan="2" id="taller-python">Taller: Tu primer bot con python</td>
+                </tr>
+                <tr>
+                    <td scope="row">11:45 - 12:30</td>
+                    <td id="charla-deploy">From zero to deploy</td>
+                </tr>
+                <tr>
+                    <td scope="row">12:30 - 13:45</td>
+                    <td colspan="2">Almuerzo libre  </td>
+                </tr>
+                <tr>
+                    <td scope="row">13:45 - 14:45</td >
+                    <td colspan="2" id="panel">Panel sobre cómo conseguir el primer empleo en tecnología</td >
+                </tr >
+                <tr>
+                    <td scope="row">14:45 - 15:00</td >
+                    <td colspan="2">Cierre y rifas</td >
+                </tr >
+                
+            </tbody >
+        </table >
+    </main >
+    <footer >
+        <address >
         ¿Preguntas? Escríbenos a <a href="mailto:hola@parchedev.example">hola@parchedev.example</a>
         </address>
         <p>Parche Dev 2026 · Medellín, Colombia</p>
